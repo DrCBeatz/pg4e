@@ -28,7 +28,7 @@ $oldgrade = $RESULT->grade;
 
 $url = isset($_REQUEST['url']) ? $_REQUEST['url'] : "";
 $url = rtrim(trim($url), '/');
-$sampleurl = "https://comfortable-starling-12.deno.dev";
+$sampleurl = "https://deno.pg4e.com";
 
 if ( strlen($url) > 0 ) $sampleurl = $url;
 
